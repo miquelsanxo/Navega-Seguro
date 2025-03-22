@@ -1,0 +1,243 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo base */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 16px;
+    background-image: url(fondo.png);
+
+}
+
+#sectioninici {
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    display: block; 
+    text-align: center; 
+    border-radius: 8px;
+
+}
+
+#inicip {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 24px;
+    text-align: center; /* Centrar el texto horizontalmente */
+    margin-top: 10vh; /* Mover el título un poco hacia arriba */
+    border-radius: 8px;
+
+}
+
+
+/* Estilo para el header */
+header {
+    background-color: #2C3E50;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Esto es necesario para posicionar el logo de forma absoluta */
+}
+
+/* Estilo del logo */
+#logo {
+    position: absolute;
+    top: 10px; /* Ajusta esta distancia para mover el logo hacia abajo o arriba */
+    left: 10px; /* Ajusta esta distancia para mover el logo hacia la izquierda o derecha */
+    width: 60px; /* Ajusta el tamaño del logo */
+    height: auto; /* Mantiene la proporción del logo */
+}
+
+/* Estilo del nav */
+nav {
+    background-color: #27AE60;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    width: 20px; /* Ajusta el tamaño del icono según necesites */
+    height: 20px;
+    vertical-align: middle; /* Centra el icono con el texto */
+    margin-right: 8px; /* Espacio entre el icono y el texto */
+
+}
+
+nav ul li a:hover {
+    background-color: #004488;
+    padding: 5px 10px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#consejos {
+    margin-left: 30px; /* Mueve la sección un poco a la derecha */
+    padding: 20px; /* Espaciado interno */
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#titulo-consejos {
+    margin-bottom: 15px; /* Espacio debajo del título */
+    text-align: left;
+}
+
+#lista-consejos {
+    
+    list-style-position: inside;
+}
+
+#lista-consejos li {
+    list-style-type: none; 
+    margin-bottom: 20px; 
+    
+}
+
+#foto1 {
+     max-width: 40%; /* Ajusta el tamaño de la imagen para que sea un poco más pequeña */
+    height: auto;
+    display: block; 
+    margin: 20px auto; /* Centra la imagen y añade margen superior e inferior */
+    border-radius: 10px;
+}
+
+/* Sección que contiene el formulario */
+#login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* Estilo del formulario */
+#login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+/* Estilo de los títulos */
+#login-form h2 {
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo de las etiquetas de los campos */
+#login-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo de los campos de entrada */
+#login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Estilo del botón */
+#login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Efecto de hover en el botón */
+#login-form button:hover {
+    background-color: #45a049;
+}
+
+
+#blog {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#titulo-blog {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.articulo {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    color: #2C3E50;
+    margin-bottom: 10px;
+
+
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 10px;
+
+    color: #e74c3c;
+
+    font-style: italic;
+    color: #2980b9;
+}
+
+/* Estilo para los iconos */
+.icon {
+    width: 20px; 
+    height: 20px;
+    vertical-align: middle; /* Alinea el icono con el texto */
+    margin-right: 8px; /* Espacio entre el icono y el texto */
+}
