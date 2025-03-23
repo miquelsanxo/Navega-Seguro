@@ -241,3 +241,55 @@ footer {
     vertical-align: middle; /* Alinea el icono con el texto */
     margin-right: 8px; /* Espacio entre el icono y el texto */
 }
+
+#consulta-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 40%;
+    margin: 20px auto;
+}
+
+#consulta-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#consulta-form input,
+#consulta-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#consulta-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#consulta-form button:hover {
+    background-color: #45a049;
+}
+
+#cambiar-estilo {
+    margin-top: 20px;
+    background-color: #2980b9;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#cambiar-estilo:hover {
+    background-color: #1f6693;
+}
