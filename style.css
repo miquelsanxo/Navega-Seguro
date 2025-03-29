@@ -1,12 +1,13 @@
-/* Reset de estilos */
+html, body {
+    height: 100%; 
+    margin: 0;   
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-html, body {
-    height: 100%;  /* Asegura que ambos elementos ocupen toda la altura de la ventana */
-    margin: 0;   
 }
 
 body {
@@ -54,16 +55,16 @@ header {
     position: relative; /* Esto es necesario para posicionar el logo de forma absoluta */
 }
 
-/* Estilo del logo */
+
 #logo {
     position: absolute;
-    top: 10px; /* Ajusta esta distancia para mover el logo hacia abajo o arriba */
-    left: 10px; /* Ajusta esta distancia para mover el logo hacia la izquierda o derecha */
-    width: 60px; /* Ajusta el tamaño del logo */
-    height: auto; /* Mantiene la proporción del logo */
+    top: 10px; 
+    left: 10px; 
+    width: 60px; 
+    height: auto; 
 }
 
-/* Estilo del nav */
+
 nav {
     background-color: #27AE60;
     padding: 10px 0;
@@ -85,10 +86,10 @@ nav ul li a {
     color: white;
     font-size: 18px;
     transition: background-color 0.3s;
-    width: 20px; /* Ajusta el tamaño del icono según necesites */
+    width: 20px; 
     height: 20px;
-    vertical-align: middle; /* Centra el icono con el texto */
-    margin-right: 8px; /* Espacio entre el icono y el texto */
+    vertical-align: middle; 
+    margin-right: 8px; 
 
 }
 
@@ -138,14 +139,14 @@ footer {
 }
 
 #foto1 {
-     max-width: 40%; /* Ajusta el tamaño de la imagen para que sea un poco más pequeña */
+     max-width: 40%; 
     height: auto;
     display: block; 
-    margin: 20px auto; /* Centra la imagen y añade margen superior e inferior */
+    margin: 20px auto; 
     border-radius: 10px;
 }
 
-/* Sección que contiene el formulario */
+
 #login-section {
     display: flex;
     justify-content: center;
@@ -154,7 +155,6 @@ footer {
     width: 100%;
 }
 
-/* Estilo del formulario */
 #login-form {
     background-color: white;
     padding: 30px;
@@ -164,14 +164,12 @@ footer {
     text-align: center;
 }
 
-/* Estilo de los títulos */
 #login-form h2 {
     font-family: 'Nunito', sans-serif;
     margin-bottom: 20px;
     color: #333;
 }
 
-/* Estilo de las etiquetas de los campos */
 #login-form label {
     display: block;
     margin: 10px 0 5px;
@@ -179,7 +177,6 @@ footer {
     color: #333;
 }
 
-/* Estilo de los campos de entrada */
 #login-form input {
     width: 100%;
     padding: 10px;
@@ -239,12 +236,11 @@ footer {
     color: #2980b9;
 }
 
-/* Estilo para los iconos */
 .icon {
     width: 20px; 
     height: 20px;
-    vertical-align: middle; /* Alinea el icono con el texto */
-    margin-right: 8px; /* Espacio entre el icono y el texto */
+    vertical-align: middle; 
+    margin-right: 8px; 
 }
 
 #consulta-section {
