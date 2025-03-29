@@ -4,15 +4,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+html, body {
+    height: 100%;  /* Asegura que ambos elementos ocupen toda la altura de la ventana */
+    margin: 0;   
+}
 
-/* Estilo base */
 body {
     font-family: 'Nunito', sans-serif;
     background-color: #f4f4f4;
     color: #333;
     padding: 16px;
     background-image: url(fondo.png);
-
+    background-size: cover; 
+    background-repeat: no-repeat;  
+    background-position: center center; 
 }
 
 #sectioninici {
